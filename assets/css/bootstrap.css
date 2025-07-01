@@ -5072,7 +5072,11 @@ fieldset:disabled .btn {
 
 /* line 17, src/assets/scss/_navbar.scss */
 .navbar {
-  position: relative;
+  position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
