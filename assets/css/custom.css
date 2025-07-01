@@ -23,11 +23,11 @@ h1.banner-heading {
 }
 
 .menu-mobile {
-  display: none;
+  display: none !important;
 }
 
 .menu-desktop {
-  display: block;
+  display: block !important;
 }
 
 
@@ -37,11 +37,11 @@ h1.banner-heading {
   }
 
   .menu-mobile {
-    display: block;
+    display: block !important;
   }
 
   .menu-desktop {
-    display: none;
+    display: none !important;
   }
 
   
